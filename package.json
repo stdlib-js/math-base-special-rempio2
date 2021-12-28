@@ -47,8 +47,8 @@
     "@stdlib/types": "^0.0.x"
   },
   "devDependencies": {
+    "@stdlib/array-base-incrspace": "^0.0.x",
     "@stdlib/array-base-linspace": "^0.0.x",
-    "@stdlib/array-incrspace": "^0.0.x",
     "@stdlib/assert-is-integer": "^0.0.x",
     "@stdlib/assert-is-number": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
