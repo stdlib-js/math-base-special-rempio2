@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-rempio2",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "Compute `x - nπ/2 = r`.",
   "license": "Apache-2.0",
   "author": {
