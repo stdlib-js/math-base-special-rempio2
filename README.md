@@ -24,14 +24,30 @@ limitations under the License.
 
 > Compute `x - nπ/2 = r`.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-rempio2
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import rempio2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rempio2@esm/index.mjs';
+var rempio2 = require( '@stdlib/math-base-special-rempio2' );
 ```
 
 #### rempio2( x, y )
@@ -96,14 +112,9 @@ y2 = y[ 1 ];
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import rempio2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rempio2@esm/index.mjs';
+```javascript
+var linspace = require( '@stdlib/array-base-linspace' );
+var rempio2 = require( '@stdlib/math-base-special-rempio2' );
 
 var x = linspace( 0.0, 100.0, 100 );
 var y = [ 0.0, 0.0 ];
@@ -114,10 +125,6 @@ for ( i = 0; i < x.length; i++ ) {
     n = rempio2( x[ i ], y );
     console.log( '%d - %dπ/2 = %d + %d', x[ i ], n, y[ 0 ], y[ 1 ] );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -141,7 +148,7 @@ for ( i = 0; i < x.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
