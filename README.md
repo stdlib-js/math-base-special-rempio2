@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import rempio2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rempio2@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-rempio2/tags). For example,
+
+```javascript
 import rempio2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rempio2@v0.2.1-esm/index.mjs';
 ```
 
@@ -114,7 +119,7 @@ y2 = y[ 1 ];
 <script type="module">
 
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import rempio2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rempio2@v0.2.1-esm/index.mjs';
+import rempio2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-rempio2@esm/index.mjs';
 
 var x = linspace( 0.0, 100.0, 100 );
 var y = [ 0.0, 0.0 ];
