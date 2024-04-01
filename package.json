@@ -41,7 +41,7 @@
     "@stdlib/constants-float64-high-word-abs-mask": "^0.2.1",
     "@stdlib/constants-float64-high-word-exponent-mask": "^0.2.1",
     "@stdlib/constants-float64-high-word-significand-mask": "^0.2.1",
-    "@stdlib/math-base-special-floor": "^0.2.1",
+    "@stdlib/math-base-special-floor": "^0.2.2",
     "@stdlib/math-base-special-ldexp": "^0.2.1",
     "@stdlib/math-base-special-round": "^0.2.1",
     "@stdlib/number-float64-base-from-words": "^0.2.1",
