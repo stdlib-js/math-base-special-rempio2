@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-09)
+## Unreleased (2024-06-13)
 
 <section class="features">
 
@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`ae92cf0`](https://github.com/stdlib-js/stdlib/commit/ae92cf0e2ff55d9e0d490ece6bd32eb8da0506a9) - use significand mask in `math/base/special/rempio2` [(##2366)](#2366)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`ae92cf0`](https://github.com/stdlib-js/stdlib/commit/ae92cf0e2ff55d9e0d490ece6bd32eb8da0506a9) - **fix:** use significand mask in `math/base/special/rempio2` [(##2366)](#2366) _(by Gunj Joshi)_
 -   [`0b633eb`](https://github.com/stdlib-js/stdlib/commit/0b633eb2afe0641b963621048a3ce93795c8d92b) - **feat:** add C implementation for `math/base/special/rempio2` _(by Gunj Joshi, Philipp Burckhardt, Athan Reines)_
 
 </details>
