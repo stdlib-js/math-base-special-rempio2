@@ -56,7 +56,8 @@
     "@stdlib/number-float64-base-get-high-word": "^0.2.2",
     "@stdlib/number-float64-base-get-low-word": "^0.2.2",
     "@stdlib/types": "^0.4.1",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-base-incrspace": "^0.2.2",
