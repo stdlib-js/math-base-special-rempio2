@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2024-12-14)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`a851ddd`](https://github.com/stdlib-js/stdlib/commit/a851ddd8d5db62a664386d59c9c39a0b82ac7c0c) - **bench:** refactor benchmarks and update function parameter description [(#3907)](https://github.com/stdlib-js/stdlib/pull/3907) _(by Gunj Joshi)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 -   [`e3777f7`](https://github.com/stdlib-js/stdlib/commit/e3777f7f9bde86ae783ed5252a7e0b97b605d264) - **test:** fix typos in test descriptions [(#2885)](https://github.com/stdlib-js/stdlib/pull/2885) _(by Gunj Joshi)_
 
