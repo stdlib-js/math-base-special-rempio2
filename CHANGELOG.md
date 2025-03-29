@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-10)
+## Unreleased (2025-03-29)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`b9af090`](https://github.com/stdlib-js/stdlib/commit/b9af09027170bf2731cdd50563be1a9d0f86b289) - **bench:** update random value generation [(#6400)](https://github.com/stdlib-js/stdlib/pull/6400) _(by Harsh)_
 -   [`a851ddd`](https://github.com/stdlib-js/stdlib/commit/a851ddd8d5db62a664386d59c9c39a0b82ac7c0c) - **bench:** refactor benchmarks and update function parameter description [(#3907)](https://github.com/stdlib-js/stdlib/pull/3907) _(by Gunj Joshi)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 -   [`e3777f7`](https://github.com/stdlib-js/stdlib/commit/e3777f7f9bde86ae783ed5252a7e0b97b605d264) - **test:** fix typos in test descriptions [(#2885)](https://github.com/stdlib-js/stdlib/pull/2885) _(by Gunj Joshi)_
@@ -26,9 +27,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Gunj Joshi
+-   Harsh
 -   Philipp Burckhardt
 
 </section>
