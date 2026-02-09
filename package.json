@@ -40,7 +40,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-zeros": "^0.2.2",
+    "@stdlib/array-base-zeros": "^0.2.3",
     "@stdlib/constants-float64-high-word-abs-mask": "^0.2.3",
     "@stdlib/constants-float64-high-word-exponent-mask": "^0.2.3",
     "@stdlib/constants-float64-high-word-significand-mask": "^0.2.3",
@@ -59,8 +59,8 @@
     "@stdlib/utils-library-manifest": "^0.2.4"
   },
   "devDependencies": {
-    "@stdlib/array-base-incrspace": "^0.2.2",
-    "@stdlib/array-base-linspace": "^0.2.2",
+    "@stdlib/array-base-incrspace": "^0.2.3",
+    "@stdlib/array-base-linspace": "^0.2.3",
     "@stdlib/array-float64": "^0.2.3",
     "@stdlib/assert-is-integer": "^0.2.3",
     "@stdlib/assert-is-number": "^0.2.3",
@@ -72,8 +72,8 @@
     "@stdlib/math-base-assert-is-nan": "^0.2.3",
     "@stdlib/math-base-special-abs": "^0.2.3",
     "@stdlib/math-base-special-pow": "^0.3.1",
-    "@stdlib/random-array-uniform": "^0.2.1",
-    "@stdlib/random-base-randu": "^0.2.2",
+    "@stdlib/random-array-uniform": "^0.2.2",
+    "@stdlib/random-base-randu": "^0.2.3",
     "@stdlib/utils-try-require": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
