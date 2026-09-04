@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-20)
+## Unreleased (2026-09-04)
 
 <section class="bug-fixes">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`8325057`](https://github.com/stdlib-js/stdlib/commit/8325057f59dacc6c43fbb3fa5c1026bf3cc5c296) - **docs:** add equations [(#14695)](https://github.com/stdlib-js/stdlib/pull/14695) _(by Karan Anand)_
 -   [`10dda53`](https://github.com/stdlib-js/stdlib/commit/10dda5309507d8420c36ec20958ae07b6a32fd17) - **chore:** clean-up [(#14413)](https://github.com/stdlib-js/stdlib/pull/14413) _(by Philipp Burckhardt)_
 -   [`3541bb7`](https://github.com/stdlib-js/stdlib/commit/3541bb7d0ce272deb402154e5255bd5faa5ad843) - **test:** migrate `math/base/special/rempio2` to ULP-based assertions [(#14410)](https://github.com/stdlib-js/stdlib/pull/14410) _(by Athan Reines)_
 -   [`b3feca8`](https://github.com/stdlib-js/stdlib/commit/b3feca8ade8ac03c6da0e194d54f31a8887197bf) - **fix:** correct argument reduction in `rempio2` and `rempio2f` [(#10869)](https://github.com/stdlib-js/stdlib/pull/10869) _(by anee3, Athan Reines, Karan Anand)_
